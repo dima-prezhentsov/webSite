@@ -1,2 +1,2 @@
-# webSite
+# Site
 Pet Project "Habit tracker"
