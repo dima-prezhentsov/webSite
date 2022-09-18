@@ -1,2 +1,3 @@
 # Site
-Pet Project "Habit tracker"
+Преженцов Дмитрий Игоревич М3305
+Habit Tracker
