@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.wrapper_gray {
+    background-color: #F6F6F6;
+}
+
+.wrapper_white {
+    background-color: #fff;
+}
