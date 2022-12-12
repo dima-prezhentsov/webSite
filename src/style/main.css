@@ -20,3 +20,7 @@ a {
 .wrapper_white {
     background-color: #fff;
 }
+
+.selected {
+    text-decoration: underline;
+}

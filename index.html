@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="src/script/pageLoad.js"></script>
 </head>
 <body>
     <div class="wrapper_white">
@@ -18,9 +19,9 @@
         
             <div class="header">
                 <ul class="header__navbar">
-                    <li><a class="header__navbar__link" href="#">Home</a></li>
-                    <li><a class="header__navbar__link" href="#">About me</a></li>
-                    <li><a class="header__navbar__link" href="#">Skills</a></li>
+                    <li><a class="header__navbar__link" id="home-page-link" href="index.html">Home</a></li>
+                    <li><a class="header__navbar__link" href="#aboutMe">About me</a></li>
+                    <li><a class="header__navbar__link" id="review-page-link" href="review.html">Отзыв</a></li>
                     <li><a class="header__navbar__link" href="#">Portfolio</a></li>
                     <li><a class="header__navbar__link" href="#">Contact</a></li>
                 </ul>
@@ -35,11 +36,14 @@
                 </p>
             </div>
             <img src="src/img/person_picture.png" alt="person_picture" class="header__picture">
+            <div id="loadInfo">
+
+            </div>
         </div>
     </div>
     <div class="wrapper_gray">
         <div class="container">
-            <div class="about-me">
+            <div class="about-me" id="aboutMe">
                 <h3 class="about-me__header">About me</h3>
                 <p class="about-me__main-text">
                     Hi, I'm Dima – Java Developer from Saint Petersburg. 
