@@ -4,10 +4,12 @@ const startTime = new Date();
 function ready() {
     const loadInfo = document.getElementById('loadInfo');
     const endTime = new Date();
+    if (loadInfo) {
+        const dif = (endTime.getTime() - startTime.getTime()) / 1000;
 
-    const dif = (endTime.getTime() - startTime.getTime()) / 1000;
-
-    loadInfo.innerHTML += `Page load in ${dif} sec`;
+        loadInfo.innerHTML += `Page load in ${dif} sec`;
+    }
+    
 
     if (document.location.href.includes('/index.html')) {
         document.getElementById('home-page-link').style.textDecoration += "underline";
